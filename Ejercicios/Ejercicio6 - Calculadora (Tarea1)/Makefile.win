@@ -1,15 +1,15 @@
-# Project: ProgramaSuma
+# Project: ProgramaCalculadora
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o
-LINKOBJ  = main.o
+OBJ      = Calculadora.o
+LINKOBJ  = Calculadora.o
 LIBS     = -L"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/lib" -L"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/include" -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/include" -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Users/penie/Desktop/PAHOLA/PROGRAMACIÓN/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = ProgramaSuma.exe
+BIN      = ProgramaCalculadora.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main.o: main.cpp
-	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+Calculadora.o: Calculadora.cpp
+	$(CPP) -c Calculadora.cpp -o Calculadora.o $(CXXFLAGS)
