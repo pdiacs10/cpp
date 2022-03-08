@@ -2,8 +2,26 @@
 
 using namespace std;
 
+int sumar() {
+    return 5 + 7;
+}
+
+string nombreCompleto() {
+    string nombre = "Juan";
+    string apellido = "Perez";
+    return nombre + "" + apellido;
+}
+
 int main(int argc, char const *argv[])
 {
-    /* code */
+    int resultado = sumar();
+    string nombreyapellido = nombreCompleto();
+
+    cout << resultado;
+
+    cout << endl;
+
+    cout << nombreyapellido;
+    
     return 0;
 }
