@@ -100,7 +100,7 @@ void productos(int opcion)
                 agregarProductos("1 Sandwich con huevo- L 30.00", 1, 30);
                 break;
             case 2:
-                agregarProductos("1 Chilena leche - L 15.00", 1, 45);
+                agregarProductos("1 Chilena leche - L 15.00", 1, 15);
                 break;
             case 3:
                 agregarProductos("1 Galleta de mantequilla - L 25.00", 1, 25);
