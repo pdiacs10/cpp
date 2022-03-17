@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std; 
 
 extern void agregarProductos( string descripcion, int cantidad, double precio);
