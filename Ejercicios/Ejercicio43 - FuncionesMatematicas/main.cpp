@@ -20,6 +20,5 @@ int main(int argc, char const *argv[])
     cout << "seno: " << seno << endl;
     cout << "coseno: " << coseno << endl;
     cout << "tangente: " << tangente << endl;
-    
     return 0;
 }
