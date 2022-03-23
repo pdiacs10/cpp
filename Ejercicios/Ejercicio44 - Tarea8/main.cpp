@@ -5,7 +5,6 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    double R = 0;
     double raizCuadrado = 0;
     int numero = 0;
 
