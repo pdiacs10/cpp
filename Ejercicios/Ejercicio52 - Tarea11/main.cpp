@@ -20,7 +20,8 @@ int main()
             suma += matriz[i][j];
         }
  
- 
+    cout << "\t Arreglo Bidimensional 5x5" << endl << endl;
+
     for (int i = 0; i < fil; i++)
     {
         for (int j = 0; j < col; j++)
@@ -30,7 +31,7 @@ int main()
         cout << endl;
     }
  
-    cout << "\n Suma: " << suma;
+    cout << "\n Total suma: " << suma;
  
     return 0;
 }
